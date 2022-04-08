@@ -10,8 +10,8 @@ public class ClienteController {
 
 
     @GetMapping
-    public String hello(){
-        return "Olá";
+    public List<Cliente> listar() {
+          
     }
 
     
